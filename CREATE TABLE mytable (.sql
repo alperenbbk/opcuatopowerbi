@@ -1,0 +1,6 @@
+CREATE TABLE mytable (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    TagName NVARCHAR(50),
+    TagValue NVARCHAR(50),
+    InsertTime DATETIME DEFAULT GETDATE()
+);
