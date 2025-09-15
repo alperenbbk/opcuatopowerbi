@@ -15,7 +15,7 @@ connection_string = (
   "Server=tcp:provisioningforrbplc01.database.windows.net,1433;"
   "Database=plcssqlpowerbi;"
   "Uid=PLCtoCloud;"
-  "Pwd=MabJA2573.;"
+  "Pwd=<Your_Specified_Password>;"
   "Encrypt=yes;"
   "TrustServerCertificate=no;"
   "Connection Timeout=30;"
@@ -47,4 +47,5 @@ while True:
 
 cursor.close()
 conn.close()
+
 client.disconnect()
